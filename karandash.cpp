@@ -1,6 +1,5 @@
 ﻿#include <iostream>
 #include <vector>
-#include <conio.h>
 #include <Windows.h>
 
 class Weapon {
