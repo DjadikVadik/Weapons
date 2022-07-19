@@ -154,13 +154,13 @@ int main()
 		else if (GetKeyState(VK_SPACE) < 0) {
 			if (i < 0) std::cout << "We don't have weapon!\n";
 			else vec[i]->Action1();
-			Sleep(500);
+			Sleep(200);
 		}
 
 		else if (GetKeyState(VK_RETURN) < 0) {
 			if (i < 0) std::cout << "We don't have weapon!\n";
 			else vec[i]->Action2();
-			Sleep(500);
+			Sleep(200);
 		}
 
 		else if (GetKeyState(VK_ESCAPE) < 0) break;
